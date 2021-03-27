@@ -1,0 +1,35 @@
+.singInButton {
+  height: 3rem;
+  padding: 0 1.5rem;
+
+  border-radius: 3rem;
+  border: 0;
+
+  background-color: var(--gray-850);
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  transition: filter 0.3s ease;
+
+  svg {
+    width: 20px;
+    height: 20px;
+
+    &:first-child {
+      margin-right: 1rem;
+    }
+
+    &.closeIcon {
+      margin-left: 1rem;
+    }
+  }
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+} 
