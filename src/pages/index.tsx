@@ -1,3 +1,11 @@
+import Head from 'next/head'
+
 export default function Home(): JSX.Element {
-  return <div>Hello world</div>
+  return (
+    <>
+      <Head>
+        <title>Início | ig.news</title>
+      </Head>
+    </>
+  )
 }
