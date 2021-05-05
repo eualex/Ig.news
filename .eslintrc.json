@@ -25,6 +25,8 @@
     "multiline-ternary": "off",
     "no-use-before-define": "off",
     "no-new": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "no-useless-return": "off",
+    "camelcase": "off"
   }
 }
