@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.14.0",
+    "axios": "^0.21.1",
     "faunadb": "^4.2.0",
     "next": "10.0.9",
     "next-auth": "^3.19.8",
@@ -18,6 +20,7 @@
     "stripe": "^8.140.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/next-auth": "^3.15.0",
     "@types/node": "^14.14.35",
     "@types/react": "^17.0.3",
