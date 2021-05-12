@@ -8,11 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prismicio/client": "^4.0.0",
     "@stripe/stripe-js": "^1.14.0",
     "axios": "^0.21.1",
     "faunadb": "^4.2.0",
     "next": "10.0.9",
     "next-auth": "^3.19.8",
+    "prismic-dom": "^2.2.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
@@ -23,6 +25,7 @@
     "@types/axios": "^0.14.0",
     "@types/next-auth": "^3.15.0",
     "@types/node": "^14.14.35",
+    "@types/prismic-dom": "^2.1.1",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@types/react-icons": "^3.0.0",
