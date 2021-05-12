@@ -1,3 +1,4 @@
+import { ActiveLink } from '../ActiveLink'
 import { SingInButton } from '../SingInButton'
 
 import styles from './styles.module.scss'
@@ -9,10 +10,12 @@ export function Header(): JSX.Element {
         <img src="/images/logo.svg" alt="ig.news" />
 
         <nav>
-          <a href="" className={styles.headerLinkActive}>
-            Home
-          </a>
-          <a href="">Posts</a>
+          <ActiveLink href="/" activeClassName={styles.headerLinkActive}>
+            <a>Home</a>
+          </ActiveLink>
+          <ActiveLink href="/posts" activeClassName={styles.headerLinkActive}>
+            <a>Posts</a>
+          </ActiveLink>
         </nav>
 
         <SingInButton />
