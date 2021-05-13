@@ -12,7 +12,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Ig.news
+## Blog sobre o mundo da tecnologia🌏💻
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
