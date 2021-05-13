@@ -24,13 +24,6 @@ Projeto desenvolvido durante o ignite da Rocketseat🚀💜.
 * [Stripe](https://stripe.com/en-br)
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Pré-requisitos
 
 * npm
@@ -41,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 * stripe configurado
 * prismic configurado
 
-### Installation
+### Instalação
 
 1. Faça o clone do repositório
    ```sh
