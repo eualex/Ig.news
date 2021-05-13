@@ -10,7 +10,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Blog sobre o mundo da tecnologia🌏💻
+## Blog sobre o mundo da tecnologia 🌏
 
 <img src="https://github.com/alex08g/Ig.news/blob/main/public/ig.news-example.png" alt="Ig.news" width="100%" height="100%"/>
 
