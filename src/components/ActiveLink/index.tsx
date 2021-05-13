@@ -13,8 +13,15 @@ export function ActiveLink({
   ...rest
 }: ActiveLinkProps): JSX.Element {
   const { asPath } = useRouter()
+  const paths = asPath.split('/')
 
-  const className = asPath === rest.href ? activeClassName : ''
+  let className: string
+
+  if (paths[1]) {
+    className = `/${paths[1]}` === rest.href ? activeClassName : ''
+  } else {
+    className = asPath === rest.href ? activeClassName : ''
+  }
 
   return (
     <Link {...rest}>
