@@ -77,6 +77,12 @@
     }
   }
 
+  @media only screen and (min-width: 768px) {
+    .burguer {
+      display: none;
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     .burguer {
       margin-left: auto;
